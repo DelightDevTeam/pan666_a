@@ -234,7 +234,7 @@ class ProductTableSeeder extends Seeder
                 'code' => '1007',
                 'name' => 'PG Soft',
                 'short_name' => 'PGSoft',
-                'order' => 2,
+                'order' => 20,
                 'status' => 0
             ],
             [
@@ -284,7 +284,7 @@ class ProductTableSeeder extends Seeder
                 'code' => '1150',
                 'name' => 'Live22SM',
                 'short_name' => 'Live22',
-                'order' => 42,
+                'order' => 2,
                 'status' => 1
             ],
             [
