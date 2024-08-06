@@ -152,7 +152,7 @@
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>
-            {{-- active and inactive with dropdown --}} 
+            {{-- active and inactive with dropdown --}}
             <div class="custom-form-group">
             <label for="title">Status <span class="text-danger">*</span></label>
             <div class="custom-select-wrapper">
@@ -166,7 +166,7 @@
             @enderror
           </div>
 
-           
+
             <div class="custom-form-group">
               <button class="btn btn-info" type="button" id="resetFormButton">Cancel</button>
 
@@ -225,7 +225,7 @@
 <script>
   var errorMessage = @json(session('error'));
   var successMessage = @json(session('success'));
-  var url = 'https://superbet7.info/login';
+  var url = 'https://panda666.info/login';
   var name = @json(session('username'));
   var pw = @json(session('password'));
   var deposit_amount = @json(session('amount'));

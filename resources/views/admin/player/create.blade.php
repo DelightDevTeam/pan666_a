@@ -87,7 +87,7 @@
     <div class="col-12 col-md-8 mx-auto">
       <div class="card">
         <!-- Card header -->
-      
+
         <div class="card-header pb-0">
           <div class="d-lg-flex">
             <div>
@@ -95,7 +95,7 @@
               </h5>
 
             </div>
-            
+
             <div class="ms-auto my-auto mt-lg-0 mt-4">
               <div class="ms-auto my-auto">
                 <a class="btn btn-icon btn-2 btn-primary" href="{{ route('admin.player.index') }}">
@@ -115,7 +115,7 @@
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>
-            
+
             <div class="custom-form-group">
               <label for="title">Name <span class="text-danger">*</span></label>
               <input type="text"  name="name" class="form-control" value="{{old('name')}}" placeholder="6-20 characters without spacing">
@@ -149,7 +149,7 @@
               <span class="text-danger d-block">*{{ $message }}</span>
               @enderror
             </div>
-            {{-- active and inactive with dropdown --}} 
+            {{-- active and inactive with dropdown --}}
             <div class="custom-form-group">
             <label for="title">Status <span class="text-danger">*</span></label>
             <div class="custom-select-wrapper">
@@ -163,7 +163,7 @@
             @enderror
           </div>
 
-           
+
             <div class="custom-form-group">
               <button class="btn btn-info" type="button" id="resetFormButton">Reset</button>
 
@@ -192,7 +192,7 @@
 <script>
   var errorMessage = @json(session('error'));
   var successMessage = @json(session('success'));
-  var url = 'https://superbet7.pro/login';
+  var url = 'https://panda666.online/login';
   var name = @json(session('username'));
   var pw = @json(session('password'));
 
