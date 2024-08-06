@@ -225,7 +225,7 @@
 <script>
   var errorMessage = @json(session('error'));
   var successMessage = @json(session('success'));
-  var url = 'https://panda666.info/login';
+  var url = 'https://panda666.online/login';
   var name = @json(session('username'));
   var pw = @json(session('password'));
   var deposit_amount = @json(session('amount'));
