@@ -113,7 +113,7 @@
 <script>
   var errorMessage = @json(session('error'));
   var successMessage = @json(session('success'));
-  var url = 'https://superbet7.info/login';
+  var url = 'https://www.panda666.online/login';
   var name = @json(session('username'));
   var pw = @json(session('password'));
 
